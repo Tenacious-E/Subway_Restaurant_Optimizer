@@ -6,7 +6,7 @@
 
 ## Data Collection
 
-<img align="center" width="850" height="400" src="Subway_heat_map.png">
+<img align="center" width="950" height="400" src="Subway_heat_map.png">
 <p>I pulled the Subway locations from the Subway website and put them into a heat map, which is above. There are 550 Subways in 226 zip codes.</p>
  
     
@@ -22,12 +22,12 @@
 
 <p> Using a gradient boosted random forest, I in input my features, cross validated, and recieved predictions for each zip. Below are some conclusions.</p>
 
-<img align="right" width="900" height="450" src="places_not_to_put.png">
+<img align="right" width="950" height="450" src="place_to_put.png">
 <p> Above you will find optimal places to put a Subway. Each one of these dots represents a zip where the model's prediction is at least one more than the actual.</p>
 
-<p>above are bad loctions</p>
+<p></p>
 
-<img align="right" width="900" height="450" src="place_to_put.png">
+<img align="right" width="950" height="450" src="places_not_to_put.png">
 <p> In the red are sub optimal locations to put a Subway. Each red dot represents a zip where the model predict one or less than the number of Subways are actually there</p>
 
 <p>above are good locations </p>
@@ -41,7 +41,7 @@
 
 <p>Below are the top 5 features for my model. Although the one to the right looks important, its not because its 3% of the overall importance. Since there are 56 features and all the feature importance add up to one, each feature effectively has the same importance. It is interesting to note that the top 5 all have to do with restaurants with large amounts of employees. This might mean chains could be an indicator of whether there are Subways, there aren't Subways, and how many Subways.</p>
 
-<img align="center" width="900" height="450" src="feature_importance.png">
+<img align="center" width="950" height="450" src="feature_importance.png">
 
 <p> In the future I would like to create a graph that adds all of the restaurant feature importance, all the ages, etc. I also hope to find the exact commercial space. I would find which types of businesses neighbor existing restaurants, how far away they are from one another, and the prices of commercial space and put those into my model. I would also like to add more census data to improve my model’s quality. </p>
 

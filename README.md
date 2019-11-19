@@ -12,7 +12,7 @@
     
 ## Finding Features
 
-<p> My main source of data is the US census. I did run into a minor problem when pulling census information: I found the census does not use zip codes, instead they use ZCTA zip codes. ZCTA zips are effectively the same thing as USPS (ones you are used to) for most zips, however there are fewer ZCTA zip and sometimes smaller USPS zips are joined into one ZCTA zip. </p>
+<p> My main source of data is the US census. I did run into a minor problem when pulling census information: I found the census does not use zip codes, instead they use ZCTA zip codes. ZCTA zips are effectively the same thing as USPS (ones you are used to) for most zips, however there are fewer ZCTA zips and sometimes smaller USPS zips are joined into one ZCTA zip. </p>
 
 <img align="center" width="950" height="400" src="dataframe_sample.png">
 
@@ -20,7 +20,7 @@
 
 ## Where to place Subways
 
-<p> Using a gradient boosted random forest, I in input my features, cross validated, and recieved predictions for each zip. Below are some conclusions.</p>
+<p> Using a gradient boosted random forest, I input my features, cross validated, and recieved predictions for each zip. Below are some conclusions.</p>
 
 <img align="right" width="950" height="450" src="places_not_to_put.png">
 <p> In the red are sub optimal locations to put a Subway. Each red dot represents a zip where the model predict one or less than the number of Subways are actually there</p>
@@ -40,7 +40,7 @@
 
 ## Feature importance and Future improvements
 
-<p>Below are the top 5 features for my model. Although the one to the right looks important, its not because its 3% of the overall importance. Since there are 56 features and all the feature importance add up to one, each feature effectively has the same importance. It is interesting to note that the top 5 all have to do with restaurants with large amounts of employees. This might mean chains could be an indicator of whether there are Subways, there aren't Subways, and how many Subways.</p>
+<p>Below are the top 5 features for my model. Although the one to the right looks important, its not because it's 3% of the overall importance. Since there are 56 features and all the feature importance add up to one, each feature effectively has the same importance. It is interesting to note that the top 5 all have to do with restaurants with large amounts of employees. This might mean chains could be an indicator of whether there are Subways, there aren't Subways, and how many Subways.</p>
 
 <img align="center" width="950" height="450" src="feature_importance.png">
 

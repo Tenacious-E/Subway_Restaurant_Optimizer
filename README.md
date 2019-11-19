@@ -25,7 +25,7 @@
 <img align="right" width="550" height="400" src="places_not_to_put.png">
 <p> Above you will find optimal places to put a Subway. Each one of these dots represents a zip where the model's prediction is at least one more than the actual.</p>
 
-<img align="left" width="550" height="400" src="places_to_put.png">
+<img align="right" width="550" height="400" src="place_to_put.png">
 <p> In the red are sub optimal locations to put a Subway. Each red dot represents a zip where the model predict one or less than the number of Subways are actually there</p>
 
 <img align="right" width="250" height="350" src="best_zip.png">

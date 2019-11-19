@@ -22,15 +22,16 @@
 
 <p> Using a gradient boosted random forest, I in input my features, cross validated, and recieved predictions for each zip. Below are some conclusions.</p>
 
+<img align="right" width="950" height="450" src="places_not_to_put.png">
+<p> In the red are sub optimal locations to put a Subway. Each red dot represents a zip where the model predict one or less than the number of Subways are actually there</p>
+
+<p></p>
+
 <img align="right" width="950" height="450" src="place_to_put.png">
 <p> Above you will find optimal places to put a Subway. Each one of these dots represents a zip where the model's prediction is at least one more than the actual.</p>
 
 <p></p>
 
-<img align="right" width="950" height="450" src="places_not_to_put.png">
-<p> In the red are sub optimal locations to put a Subway. Each red dot represents a zip where the model predict one or less than the number of Subways are actually there</p>
-
-<p>above are good locations </p>
 <img align="right" width="250" height="350" src="best_zip.png">
 
 <p> The most optimal zip code to put a Subway in is 98103 - Green Lake area (to the right). This zip represents the max difference between the model's prediction and the acutal number of Subways, which is 2.6</p>
@@ -45,7 +46,4 @@
 
 <p> In the future I would like to create a graph that adds all of the restaurant feature importance, all the ages, etc. I also hope to find the exact commercial space. I would find which types of businesses neighbor existing restaurants, how far away they are from one another, and the prices of commercial space and put those into my model. I would also like to add more census data to improve my model’s quality. </p>
 
-
-
-
-<p> Stay Fresh!</p> 
+**<p> Stay Fresh!</p>** 

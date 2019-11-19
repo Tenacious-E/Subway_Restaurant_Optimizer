@@ -6,7 +6,7 @@
 
 ## Data Collection
 
-<img align="center" width="650" height="400" src="subway_heat_map.png">
+<img align="center" width="850" height="400" src="Subway_heat_map.png">
 <p>I pulled the Subway locations from the Subway website and put them into a heat map, which is above. There are 550 Subways in 226 zip codes.</p>
  
     
@@ -22,15 +22,15 @@
 
 <p> Using a gradient boosted random forest, I in input my features, cross validated, and recieved predictions for each zip. Below are some conclusions.</p>
 
-<img align="right" width="550" height="400" src="places_not_to_put.png">
+<img align="right" width="800" height="450" src="places_not_to_put.png">
 <p> Above you will find optimal places to put a Subway. Each one of these dots represents a zip where the model's prediction is at least one more than the actual.</p>
 
-<p></p>
+<p>above are bad loctions</p>
 
-<img align="right" width="550" height="400" src="place_to_put.png">
+<img align="right" width="800" height="450" src="place_to_put.png">
 <p> In the red are sub optimal locations to put a Subway. Each red dot represents a zip where the model predict one or less than the number of Subways are actually there</p>
 
-<p></p>
+<p>above are good locations </p>
 <img align="right" width="250" height="350" src="best_zip.png">
 
 <p> The most optimal zip code to put a Subway in is 98103 - Green Lake area (to the right). This zip represents the max difference between the model's prediction and the acutal number of Subways, which is 2.6</p>

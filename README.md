@@ -25,9 +25,12 @@
 <img align="right" width="550" height="400" src="places_not_to_put.png">
 <p> Above you will find optimal places to put a Subway. Each one of these dots represents a zip where the model's prediction is at least one more than the actual.</p>
 
+<p></p>
+
 <img align="right" width="550" height="400" src="place_to_put.png">
 <p> In the red are sub optimal locations to put a Subway. Each red dot represents a zip where the model predict one or less than the number of Subways are actually there</p>
 
+<p></p>
 <img align="right" width="250" height="350" src="best_zip.png">
 
 <p> The most optimal zip code to put a Subway in is 98103 - Green Lake area (to the right). This zip represents the max difference between the model's prediction and the acutal number of Subways, which is 2.6</p>
@@ -37,6 +40,8 @@
 ## Feature importance and Future improvements
 
 <p>Below are the top 5 features for my model. Although the one to the right looks important, its not because its 3% of the overall importance. Since there are 56 features and all the feature importance add up to one, each feature effectively has the same importance. It is interesting to note that the top 5 all have to do with restaurants with large amounts of employees. This might mean chains could be an indicator of whether there are Subways, there aren't Subways, and how many Subways.</p>
+
+<img align="center" width="250" height="350" src="feature_importance.png">
 
 <p> In the future I would like to create a graph that adds all of the restaurant feature importance, all the ages, etc. I also hope to find the exact commercial space. I would find which types of businesses neighbor existing restaurants, how far away they are from one another, and the prices of commercial space and put those into my model. I would also like to add more census data to improve my model’s quality. </p>
 

@@ -23,7 +23,7 @@
 <p> Using a gradient boosted random forest, I input my features, cross validated, and recieved predictions for each zip. Below are some conclusions.</p>
 
 <img align="right" width="950" height="450" src="places_not_to_put.png">
-<p> In the red are sub optimal locations to put a Subway. Each red dot represents a zip where the model predict one or less than the number of Subways are actually there</p>
+<p> In the red are sub optimal locations to put a Subway. Each red dot represents a zip where the model predict one or less than the number of Subways there actually are</p>
 
 <p></p>
 

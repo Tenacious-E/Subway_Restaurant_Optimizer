@@ -16,7 +16,7 @@
 
 <img align="center" width="950" height="400" src="dataframe_sample.png">
 
-<p>  For illustration purposes, I created a spreadsheet of my dataframe, which is above. Some of the features are self explaintory but the idea with number of businesses is to find where people go: they may not live in downtown but they may work there at a business. Although it's not shown, I created other features to show the size of the business. This is important because if Microsoft is in one zip code and there are 3 small businesses in another zip code, there are 2 more businesses in the latter zip, but it might be more beneficial to place a Subway where there are more employees. Limited service restaurants are defined as: restuarants where you pay before you eat, so Subways and the like. I also used age and percentages of certain languages spoken. There are a total of 56 features.</p>
+<p>  For illustration purposes, I created a spreadsheet of my dataframe, which is above. Some of the features are self explaintory but the idea with number of businesses is to find where people go: they may not live in downtown but they may work there at a business. Although it's not shown, I created other features to show the size of the business. This is important because if Microsoft is in one zip code and there are 3 small businesses in another zip code, there are 2 more businesses in the latter zip, but it might be more beneficial to place a Subway where there are more employees. Limited service restaurants are defined as: restaurants where you pay before you eat, so Subways and the like. I also used age and percentages of certain languages spoken. There are a total of 56 features.</p>
 
 ## Where to place Subways
 
@@ -44,6 +44,6 @@
 
 <img align="center" width="950" height="450" src="feature_importance.png">
 
-<p> In the future I would like to create a graph that adds all of the restaurant feature importance, all the ages, etc. I also hope to find the exact commercial space. I would find which types of businesses neighbor existing restaurants, how far away they are from one another, and the prices of commercial space and put those into my model. I would also like to add more census data to improve my model’s quality. </p>
+<p> In the future I would like to create a graph that adds all of the restaurant feature importance, all the ages, etc. I also hope to find the exact commercial space. I would find which types of businesses neighbor existing restaurants, the prices of commercial space and how far away they are from one another. The latter is acutally very important because the current model doesn't understand spatial distance. I would also like to add more census data to improve my model’s quality. </p>
 
 **<p> Stay Fresh!</p>** 

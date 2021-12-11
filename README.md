@@ -1,7 +1,5 @@
 # Optimal Subway Locator
 
-**Have you ever wondered where the best place to build a new Subway is? No, it’s not underground, but, if you did think that, don’t worry, I can show you the best location.**
-
 <p>I built a model to predict the number of Subway restaurants in a particular Washington state zip code. Using this model I am able to determine the optimal zip code for a new Subway restaurant! The difference between the model’s prediction and the actual number of Subways indicates whether or not to build. Eg: the model predicts four Subways in a zip code, and there is actually only one, then there is a market for three additional Subways. The opposite is also true: If the model predicts one subway and there are actually three, you shouldn’t build there.</p>
 
 ## Data Collection
